@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "products",
   "info": {
-    "name": "products"
+    "name": "products",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,14 +18,15 @@
     "price": {
       "type": "decimal"
     },
-    "category": {
-      "model": "category"
-    },
     "remote_url": {
       "type": "string"
     },
     "local_url": {
       "type": "string"
+    },
+    "category": {
+      "via": "products",
+      "model": "category"
     }
   }
 }
