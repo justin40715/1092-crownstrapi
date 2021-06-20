@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homeworls",
+      "handler": "homeworl.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homeworls/count",
+      "handler": "homeworl.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homeworls/:id",
+      "handler": "homeworl.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/homeworls",
+      "handler": "homeworl.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homeworls/:id",
+      "handler": "homeworl.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homeworls/:id",
+      "handler": "homeworl.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

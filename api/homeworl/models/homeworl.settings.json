@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homeworls",
+  "info": {
+    "name": "homeworl"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
